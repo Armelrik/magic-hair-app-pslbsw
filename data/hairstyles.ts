@@ -59,7 +59,7 @@ export const hairstyles: Hairstyle[] = [
     price: 75,
     duration: 210, // 3.5 hours
     packetsNeeded: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1583900985737-6d0495555783?w=400&h=400&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1621784563330-caee0b138a00?w=400&h=400&fit=crop',
     category: 'braids'
   },
   {

@@ -15,28 +15,81 @@ export const useAppointments = () => {
     const mockAppointments: Appointment[] = [
       {
         id: '1',
-        clientName: 'Marie Dubois',
+        clientName: 'Aminata Diallo',
         clientPhone: '+33 6 12 34 56 78',
-        hairstyleId: '1',
-        date: '2024-01-15',
-        time: '10:00',
+        hairstyleId: '6', // Goddess Braids
+        date: '2024-01-18',
+        time: '09:00',
         location: 'salon',
         status: 'confirmed',
         paymentStatus: 'deposit',
-        totalPrice: 80,
-        notes: 'Première fois, préfère les tresses pas trop serrées'
+        totalPrice: 75,
+        notes: 'Souhaite des tresses volumineuses pour un mariage'
       },
       {
         id: '2',
-        clientName: 'Sophie Martin',
+        clientName: 'Fatou Keita',
         clientPhone: '+33 6 98 76 54 32',
-        hairstyleId: '3',
-        date: '2024-01-16',
+        hairstyleId: '1', // Box Braids
+        date: '2024-01-19',
         time: '14:00',
         location: 'home',
         status: 'pending',
         paymentStatus: 'none',
-        totalPrice: 90
+        totalPrice: 80,
+        notes: 'Première fois, préfère les tresses moyennes'
+      },
+      {
+        id: '3',
+        clientName: 'Aïcha Traoré',
+        clientPhone: '+33 6 45 67 89 12',
+        hairstyleId: '4', // Fulani Braids
+        date: '2024-01-20',
+        time: '10:30',
+        location: 'salon',
+        status: 'confirmed',
+        paymentStatus: 'full',
+        totalPrice: 100,
+        notes: 'Veut des perles dorées et des accessoires traditionnels'
+      },
+      {
+        id: '4',
+        clientName: 'Mariam Coulibaly',
+        clientPhone: '+33 6 23 45 67 89',
+        hairstyleId: '8', // Knotless Braids
+        date: '2024-01-21',
+        time: '08:00',
+        location: 'salon',
+        status: 'confirmed',
+        paymentStatus: 'deposit',
+        totalPrice: 110,
+        notes: 'Cheveux sensibles, technique douce requise'
+      },
+      {
+        id: '5',
+        clientName: 'Kadiatou Bah',
+        clientPhone: '+33 6 34 56 78 90',
+        hairstyleId: '3', // Senegalese Twists
+        date: '2024-01-22',
+        time: '13:00',
+        location: 'home',
+        status: 'pending',
+        paymentStatus: 'none',
+        totalPrice: 90,
+        notes: 'Préfère les torsades longues et fines'
+      },
+      {
+        id: '6',
+        clientName: 'Ndeye Sow',
+        clientPhone: '+33 6 56 78 90 12',
+        hairstyleId: '6', // Goddess Braids
+        date: '2024-01-23',
+        time: '15:30',
+        location: 'salon',
+        status: 'completed',
+        paymentStatus: 'full',
+        totalPrice: 75,
+        notes: 'Cliente régulière, très satisfaite du résultat'
       }
     ];
     setAppointments(mockAppointments);
